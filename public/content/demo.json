@@ -1,0 +1,1774 @@
+{
+  "version": 1,
+  "articles": [
+    {
+      "id": "moon",
+      "category": "Space and Defence",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "High",
+      "publishedAt": "2026-09-30T09:00:00+05:30",
+      "eventAt": "2023-08-23T12:00:00+05:30",
+      "collectedAt": "2026-09-30T09:00:00+05:30",
+      "updatedAt": "2026-09-30T09:00:00+05:30",
+      "source": "ISRO",
+      "sourceUrl": "https://www.isro.gov.in/Ch3_Propulsion_Module_moved_from_Lunar_orbit_to_Earth_orbit.html",
+      "verification": "demo",
+      "organizations": [
+        "ISRO"
+      ],
+      "locations": [
+        "Moon",
+        "Bengaluru"
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Apollo_11_image_of_a_nearly_full_Moon.jpg",
+        "alt": "Representative Moon photograph from Apollo 11, not a Chandrayaan mission photograph",
+        "author": "NASA / ALSJ / Emily Lakdawalla",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Apollo_11_image_of_a_nearly_full_Moon.jpg",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-NASA"
+      },
+      "headline": "Chandrayaan-3: a milestone on the Moon",
+      "summary": "India’s Chandrayaan-3 achieved a soft landing on the Moon on 23 August 2023. Revisit the mission and the science behind it.",
+      "body": [
+        "The mission demonstrated safe soft landing, rover movement and in-situ scientific experiments.",
+        "Vikram was the lander and Pragyan the rover. The landing was in the Moon’s southern high-latitude region, not at the geographic south pole."
+      ],
+      "facts": [
+        "Landing: 23 August 2023",
+        "Lander: Vikram · Rover: Pragyan",
+        "Launch vehicle: LVM3"
+      ],
+      "staticGK": [
+        "ISRO headquarters: Bengaluru",
+        "The Moon is Earth’s natural satellite"
+      ],
+      "remember": "Vikram lands. Pragyan explores.",
+      "aiGenerated": false,
+      "relevance": {
+        "RRB JE": "Connect the facts with technical fundamentals and general awareness.",
+        "SSC CGL": "Useful for general awareness and static GK revision; no prediction of examination questions.",
+        "SSC CHSL": "Useful for general awareness and static GK revision; no prediction of examination questions."
+      }
+    },
+    {
+      "id": "rail",
+      "category": "Railways and Infrastructure",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "Medium",
+      "publishedAt": "2026-09-29T09:00:00+05:30",
+      "eventAt": null,
+      "collectedAt": "2026-09-29T09:00:00+05:30",
+      "updatedAt": "2026-09-29T09:00:00+05:30",
+      "source": "Indian Railways",
+      "sourceUrl": "https://indianrailways.gov.in/",
+      "verification": "demo",
+      "organizations": [
+        "Indian Railways"
+      ],
+      "locations": [
+        "India"
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/A_typical_Indian_passenger_train.jpg/1280px-A_typical_Indian_passenger_train.jpg",
+        "alt": "An Indian passenger train",
+        "author": "HridoyKundu",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_typical_Indian_passenger_train.jpg",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "headline": "Railway electrification: understand the power behind the journey",
+      "summary": "A static-GK demonstration explainer on electric traction, overhead lines and the role of transformers.",
+      "body": [
+        "In a common 25 kV AC traction system, overhead equipment supplies electrical energy to the locomotive through a pantograph.",
+        "A transformer changes AC voltage levels. Electric traction uses power electronics and motors to turn electrical energy into motion."
+      ],
+      "facts": [
+        "Pantograph: collects power from overhead equipment",
+        "Transformer: operates on electromagnetic induction",
+        "Traction motor: produces mechanical motion"
+      ],
+      "staticGK": [
+        "Frequency of India’s utility AC supply: 50 Hz",
+        "A transformer cannot sustain normal operation on steady DC"
+      ],
+      "remember": "Wire → pantograph → conversion → motor.",
+      "aiGenerated": false,
+      "relevance": {
+        "RRB JE": "Connect the facts with technical fundamentals and general awareness.",
+        "SSC CGL": "Useful for general awareness and static GK revision; no prediction of examination questions.",
+        "SSC CHSL": "Useful for general awareness and static GK revision; no prediction of examination questions."
+      }
+    },
+    {
+      "id": "tiger",
+      "category": "Environment",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "High",
+      "publishedAt": "2026-09-28T09:00:00+05:30",
+      "eventAt": "1973-04-01T12:00:00+05:30",
+      "collectedAt": "2026-09-28T09:00:00+05:30",
+      "updatedAt": "2026-09-28T09:00:00+05:30",
+      "source": "National Tiger Conservation Authority",
+      "sourceUrl": "https://ntca.gov.in/about-us/",
+      "verification": "demo",
+      "organizations": [
+        "NTCA",
+        "Ministry of Environment, Forest and Climate Change"
+      ],
+      "locations": [
+        "India",
+        "Kanha"
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Royal_Bengal_Tiger_at_Kanha_National_Park.jpg/1280px-Royal_Bengal_Tiger_at_Kanha_National_Park.jpg",
+        "alt": "Bengal tiger at Kanha National Park",
+        "author": "Rahulsharma photography",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Royal_Bengal_Tiger_at_Kanha_National_Park.jpg",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "headline": "Project Tiger: the conservation story to remember",
+      "summary": "Project Tiger began in 1973. Connect this landmark conservation programme with protected areas and biodiversity.",
+      "body": [
+        "Project Tiger focuses on conserving tigers and their habitats. Habitat protection also supports many other species.",
+        "The National Tiger Conservation Authority is a statutory body under the Ministry of Environment, Forest and Climate Change."
+      ],
+      "facts": [
+        "Project Tiger launched in 1973",
+        "NTCA: National Tiger Conservation Authority",
+        "Tiger scientific name: Panthera tigris"
+      ],
+      "staticGK": [
+        "An ecosystem includes organisms and their physical environment",
+        "In-situ conservation protects species in their natural habitats"
+      ],
+      "remember": "1973: a turning point for the tiger.",
+      "aiGenerated": false,
+      "relevance": {
+        "RRB JE": "Connect the facts with technical fundamentals and general awareness.",
+        "SSC CGL": "Useful for general awareness and static GK revision; no prediction of examination questions.",
+        "SSC CHSL": "Useful for general awareness and static GK revision; no prediction of examination questions."
+      }
+    },
+    {
+      "id": "constitution",
+      "category": "National Affairs",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "High",
+      "publishedAt": "2026-09-27T09:00:00+05:30",
+      "eventAt": "1949-11-26T12:00:00+05:30",
+      "collectedAt": "2026-09-27T09:00:00+05:30",
+      "updatedAt": "2026-09-27T09:00:00+05:30",
+      "source": "Parliament of India",
+      "sourceUrl": "https://sansad.in/ls/about/introduction",
+      "verification": "demo",
+      "organizations": [
+        "Constituent Assembly"
+      ],
+      "locations": [
+        "New Delhi"
+      ],
+      "headline": "The Constitution: adoption and commencement are different dates",
+      "summary": "An essential polity revision: the Constitution was adopted on 26 November 1949 and came into force on 26 January 1950.",
+      "body": [
+        "The Constituent Assembly adopted the Constitution on 26 November 1949. Its principal provisions came into force on 26 January 1950.",
+        "Keep these dates separate: adoption is marked by Constitution Day; commencement is marked by Republic Day."
+      ],
+      "facts": [
+        "Adopted: 26 November 1949",
+        "Came into force: 26 January 1950"
+      ],
+      "staticGK": [
+        "The Preamble introduces the Constitution’s guiding ideals"
+      ],
+      "remember": "November adopts; January begins.",
+      "aiGenerated": false,
+      "relevance": {
+        "RRB JE": "Connect the facts with technical fundamentals and general awareness.",
+        "SSC CGL": "Useful for general awareness and static GK revision; no prediction of examination questions.",
+        "SSC CHSL": "Useful for general awareness and static GK revision; no prediction of examination questions."
+      }
+    },
+    {
+      "id": "rbi",
+      "category": "Economy and Banking",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "Medium",
+      "publishedAt": "2026-09-26T09:00:00+05:30",
+      "eventAt": null,
+      "collectedAt": "2026-09-26T09:00:00+05:30",
+      "updatedAt": "2026-09-26T09:00:00+05:30",
+      "source": "Reserve Bank of India",
+      "sourceUrl": "https://www.rbi.org.in/",
+      "verification": "demo",
+      "organizations": [
+        "RBI"
+      ],
+      "locations": [
+        "Mumbai",
+        "India"
+      ],
+      "headline": "RBI and monetary policy: get the fundamentals right",
+      "summary": "Learn the difference between monetary policy, fiscal policy and the policy repo rate.",
+      "body": [
+        "The Reserve Bank of India is India’s central bank. Monetary policy influences money and credit conditions.",
+        "The policy repo rate is the rate at which the RBI provides overnight liquidity to banks against eligible collateral under its liquidity adjustment facility. No current rate is quoted in this demo."
+      ],
+      "facts": [
+        "RBI: central bank of India",
+        "Monetary policy: money and credit",
+        "Fiscal policy: government taxation and spending"
+      ],
+      "staticGK": [
+        "RBI began operations in 1935"
+      ],
+      "remember": "RBI → money; government → budget.",
+      "aiGenerated": false,
+      "relevance": {
+        "RRB JE": "Connect the facts with technical fundamentals and general awareness.",
+        "SSC CGL": "Useful for general awareness and static GK revision; no prediction of examination questions.",
+        "SSC CHSL": "Useful for general awareness and static GK revision; no prediction of examination questions."
+      }
+    },
+    {
+      "id": "electronics",
+      "category": "Electronics and Technology",
+      "exams": [
+        "RRB JE"
+      ],
+      "priority": "High",
+      "publishedAt": "2026-09-25T09:00:00+05:30",
+      "eventAt": null,
+      "collectedAt": "2026-09-25T09:00:00+05:30",
+      "updatedAt": "2026-09-25T09:00:00+05:30",
+      "source": "MIT OpenCourseWare",
+      "sourceUrl": "https://ocw.mit.edu/",
+      "verification": "demo",
+      "organizations": [
+        "ADC"
+      ],
+      "locations": [
+        "India"
+      ],
+      "headline": "From analogue to digital: the sampling rule",
+      "summary": "A technical revision for RRB JE: connect sampling, bandwidth and aliasing with everyday digital electronics.",
+      "body": [
+        "For an ideally band-limited baseband signal with highest frequency B, the sampling rate must exceed 2B to avoid spectral overlap in general.",
+        "A practical system uses an anti-aliasing filter before sampling and allows a transition band. Exactly 2B is a theoretical boundary, not a robust practical design choice."
+      ],
+      "facts": [
+        "Nyquist rate: 2 × highest signal frequency",
+        "Aliasing: different frequencies become indistinguishable after sampling",
+        "Anti-aliasing filter: before the ADC"
+      ],
+      "staticGK": [
+        "An ADC converts analogue input into digital codes"
+      ],
+      "remember": "Filter first. Sample fast enough.",
+      "aiGenerated": false,
+      "relevance": {
+        "RRB JE": "Connect the facts with technical fundamentals and general awareness.",
+        "SSC CGL": "Useful for general awareness and static GK revision; no prediction of examination questions.",
+        "SSC CHSL": "Useful for general awareness and static GK revision; no prediction of examination questions."
+      }
+    },
+    {
+      "id": "un",
+      "category": "International Affairs",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "High",
+      "publishedAt": "2026-09-24T09:00:00+05:30",
+      "eventAt": "1945-10-24T12:00:00+05:30",
+      "collectedAt": "2026-09-24T09:00:00+05:30",
+      "updatedAt": "2026-09-24T09:00:00+05:30",
+      "source": "United Nations",
+      "sourceUrl": "https://www.un.org/en/about-us/main-bodies",
+      "verification": "demo",
+      "organizations": [
+        "United Nations",
+        "ICJ"
+      ],
+      "locations": [
+        "New York",
+        "The Hague"
+      ],
+      "headline": "The United Nations: six principal organs",
+      "summary": "Revisit the United Nations’ founding and the distinction between the General Assembly and Security Council.",
+      "body": [
+        "The United Nations came into existence on 24 October 1945. Its Charter established six principal organs.",
+        "The International Court of Justice is located in The Hague. Other principal organs include the General Assembly and Security Council."
+      ],
+      "facts": [
+        "UN Day: 24 October",
+        "ICJ seat: The Hague",
+        "Six principal organs"
+      ],
+      "staticGK": [
+        "The UN headquarters is in New York"
+      ],
+      "remember": "UN in New York; ICJ in The Hague.",
+      "aiGenerated": false,
+      "relevance": {
+        "RRB JE": "Connect the facts with technical fundamentals and general awareness.",
+        "SSC CGL": "Useful for general awareness and static GK revision; no prediction of examination questions.",
+        "SSC CHSL": "Useful for general awareness and static GK revision; no prediction of examination questions."
+      }
+    },
+    {
+      "id": "scheme",
+      "category": "Government Schemes",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "Medium",
+      "publishedAt": "2026-09-30T09:00:00+05:30",
+      "eventAt": "2005-09-05T12:00:00+05:30",
+      "collectedAt": "2026-09-30T09:00:00+05:30",
+      "updatedAt": "2026-09-30T09:00:00+05:30",
+      "source": "Ministry of Rural Development",
+      "sourceUrl": "https://nrega.nic.in/",
+      "verification": "demo",
+      "organizations": [
+        "Ministry of Rural Development"
+      ],
+      "locations": [
+        "India"
+      ],
+      "headline": "MGNREGA: a rights-based employment guarantee",
+      "summary": "Understand the core statutory employment guarantee rather than memorising changing allocations.",
+      "body": [
+        "MGNREGA provides a legal guarantee of at least 100 days of wage employment in a financial year to a rural household whose adult members volunteer for unskilled manual work.",
+        "The guarantee is per household, not per adult. This distinction is important in examination questions."
+      ],
+      "facts": [
+        "At least 100 days per financial year",
+        "Guarantee applies to a rural household",
+        "Work: unskilled manual work"
+      ],
+      "staticGK": [
+        "The Act was enacted in 2005"
+      ],
+      "remember": "100 days, one rural household.",
+      "aiGenerated": false,
+      "relevance": {
+        "RRB JE": "Connect the facts with technical fundamentals and general awareness.",
+        "SSC CGL": "Useful for general awareness and static GK revision; no prediction of examination questions.",
+        "SSC CHSL": "Useful for general awareness and static GK revision; no prediction of examination questions."
+      }
+    },
+    {
+      "id": "geo",
+      "category": "Geography",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "High",
+      "publishedAt": "2026-09-29T09:00:00+05:30",
+      "eventAt": null,
+      "collectedAt": "2026-09-29T09:00:00+05:30",
+      "updatedAt": "2026-09-29T09:00:00+05:30",
+      "source": "NCERT",
+      "sourceUrl": "https://ncert.nic.in/textbook.php",
+      "verification": "demo",
+      "organizations": [
+        "NCERT"
+      ],
+      "locations": [
+        "India"
+      ],
+      "headline": "The Tropic of Cancer: a line with examination value",
+      "summary": "Connect latitude, the Sun’s apparent movement and the geography of India.",
+      "body": [
+        "The Tropic of Cancer is approximately 23.5° north of the equator. It passes through eight Indian states.",
+        "Latitude measures angular distance north or south of the equator; longitude measures position east or west of the prime meridian."
+      ],
+      "facts": [
+        "Tropic of Cancer: approximately 23.5° N",
+        "Equator: 0° latitude",
+        "Eight Indian states crossed"
+      ],
+      "staticGK": [
+        "The Tropic of Capricorn lies in the Southern Hemisphere"
+      ],
+      "remember": "Cancer north; Capricorn south.",
+      "aiGenerated": false,
+      "relevance": {
+        "RRB JE": "Connect the facts with technical fundamentals and general awareness.",
+        "SSC CGL": "Useful for general awareness and static GK revision; no prediction of examination questions.",
+        "SSC CHSL": "Useful for general awareness and static GK revision; no prediction of examination questions."
+      }
+    },
+    {
+      "id": "sport",
+      "category": "Sports",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "High",
+      "publishedAt": "2026-09-28T09:00:00+05:30",
+      "eventAt": null,
+      "collectedAt": "2026-09-28T09:00:00+05:30",
+      "updatedAt": "2026-09-28T09:00:00+05:30",
+      "source": "International Olympic Committee",
+      "sourceUrl": "https://olympics.com/ioc/olympic-rings",
+      "verification": "demo",
+      "organizations": [
+        "IOC"
+      ],
+      "locations": [
+        "Lausanne",
+        "Athens"
+      ],
+      "headline": "The Olympic rings: a symbol of unity",
+      "summary": "Revise the Olympic symbol without attaching unsupported country meanings to individual colours.",
+      "body": [
+        "The Olympic symbol consists of five interlaced rings, representing the union of the five continents and the meeting of athletes at the Olympic Games.",
+        "Do not memorise a supposed fixed colour-to-continent mapping: it is not the official meaning of the symbol."
+      ],
+      "facts": [
+        "Five interlaced rings",
+        "IOC headquarters: Lausanne, Switzerland"
+      ],
+      "staticGK": [
+        "The modern Olympic Games began in Athens in 1896"
+      ],
+      "remember": "Five rings, one meeting of athletes.",
+      "aiGenerated": false,
+      "relevance": {
+        "RRB JE": "Connect the facts with technical fundamentals and general awareness.",
+        "SSC CGL": "Useful for general awareness and static GK revision; no prediction of examination questions.",
+        "SSC CHSL": "Useful for general awareness and static GK revision; no prediction of examination questions."
+      }
+    },
+    {
+      "id": "award",
+      "category": "Awards and Honours",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "Medium",
+      "publishedAt": "2026-09-27T09:00:00+05:30",
+      "eventAt": "1901-12-10T12:00:00+05:30",
+      "collectedAt": "2026-09-27T09:00:00+05:30",
+      "updatedAt": "2026-09-27T09:00:00+05:30",
+      "source": "Nobel Prize",
+      "sourceUrl": "https://www.nobelprize.org/prizes/",
+      "verification": "demo",
+      "organizations": [
+        "Nobel Foundation"
+      ],
+      "locations": [
+        "Oslo",
+        "Stockholm"
+      ],
+      "headline": "Nobel Prizes: identify the original categories",
+      "summary": "Learn which prizes stem from Alfred Nobel’s will and how the economics prize differs.",
+      "body": [
+        "The original Nobel Prize fields are physics, chemistry, physiology or medicine, literature and peace. The first prizes were awarded in 1901.",
+        "The economics prize was established later by Sveriges Riksbank in memory of Alfred Nobel."
+      ],
+      "facts": [
+        "First Nobel Prizes: 1901",
+        "Peace Prize awarded in Oslo",
+        "Other Nobel award ceremonies: Stockholm"
+      ],
+      "staticGK": [
+        "Alfred Nobel was a Swedish inventor"
+      ],
+      "remember": "Peace in Oslo; remember 1901.",
+      "aiGenerated": false,
+      "relevance": {
+        "RRB JE": "Connect the facts with technical fundamentals and general awareness.",
+        "SSC CGL": "Useful for general awareness and static GK revision; no prediction of examination questions.",
+        "SSC CHSL": "Useful for general awareness and static GK revision; no prediction of examination questions."
+      }
+    },
+    {
+      "id": "appointment",
+      "category": "Appointments",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "High",
+      "publishedAt": "2026-09-26T09:00:00+05:30",
+      "eventAt": null,
+      "collectedAt": "2026-09-26T09:00:00+05:30",
+      "updatedAt": "2026-09-26T09:00:00+05:30",
+      "source": "Legislative Department",
+      "sourceUrl": "https://legislative.gov.in/constitution-of-india/",
+      "verification": "demo",
+      "organizations": [
+        "President of India"
+      ],
+      "locations": [
+        "India"
+      ],
+      "headline": "Who appoints the Governor of an Indian state?",
+      "summary": "A static polity explainer on constitutional appointments. This is not a current office-holder update.",
+      "body": [
+        "Article 155 provides that the Governor of a state is appointed by the President by warrant under the President’s hand and seal.",
+        "Study the appointing authority separately from the name of the current office-holder, which can change."
+      ],
+      "facts": [
+        "Governor appointed by the President",
+        "Relevant provision: Article 155"
+      ],
+      "staticGK": [
+        "The President is India’s constitutional head of state"
+      ],
+      "remember": "Article 155 → President appoints Governor.",
+      "aiGenerated": false,
+      "relevance": {
+        "RRB JE": "Connect the facts with technical fundamentals and general awareness.",
+        "SSC CGL": "Useful for general awareness and static GK revision; no prediction of examination questions.",
+        "SSC CHSL": "Useful for general awareness and static GK revision; no prediction of examination questions."
+      }
+    },
+    {
+      "id": "report",
+      "category": "Reports and Indices",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "High",
+      "publishedAt": "2026-09-25T09:00:00+05:30",
+      "eventAt": null,
+      "collectedAt": "2026-09-25T09:00:00+05:30",
+      "updatedAt": "2026-09-25T09:00:00+05:30",
+      "source": "UNDP",
+      "sourceUrl": "https://hdr.undp.org/data-center/human-development-index",
+      "verification": "demo",
+      "organizations": [
+        "UNDP"
+      ],
+      "locations": [
+        "Global"
+      ],
+      "headline": "Human Development Index: look beyond income",
+      "summary": "Understand the three dimensions of HDI. This demo deliberately does not quote current country rankings.",
+      "body": [
+        "The Human Development Index summarises achievement in health, education and standard of living.",
+        "Its indicators include life expectancy at birth, schooling measures and gross national income per capita."
+      ],
+      "facts": [
+        "Publisher: UNDP",
+        "Dimensions: health, education and income"
+      ],
+      "staticGK": [
+        "An index combines selected indicators into a summary measure"
+      ],
+      "remember": "A long life, learning and a decent living.",
+      "aiGenerated": false,
+      "relevance": {
+        "RRB JE": "Connect the facts with technical fundamentals and general awareness.",
+        "SSC CGL": "Useful for general awareness and static GK revision; no prediction of examination questions.",
+        "SSC CHSL": "Useful for general awareness and static GK revision; no prediction of examination questions."
+      }
+    },
+    {
+      "id": "day",
+      "category": "Important Days",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "Medium",
+      "publishedAt": "2026-09-24T09:00:00+05:30",
+      "eventAt": "1973-06-05T12:00:00+05:30",
+      "collectedAt": "2026-09-24T09:00:00+05:30",
+      "updatedAt": "2026-09-24T09:00:00+05:30",
+      "source": "UNEP",
+      "sourceUrl": "https://www.unep.org/events/un-day/world-environment-day",
+      "verification": "demo",
+      "organizations": [
+        "UNEP"
+      ],
+      "locations": [
+        "Nairobi"
+      ],
+      "headline": "World Environment Day: remember 5 June",
+      "summary": "Build a reliable date association while keeping annual themes separate from the fixed observance.",
+      "body": [
+        "World Environment Day is observed on 5 June and is led by the United Nations Environment Programme.",
+        "Its host and theme can change from year to year. This static explainer does not assert a current theme."
+      ],
+      "facts": [
+        "Date: 5 June",
+        "Lead organisation: UNEP"
+      ],
+      "staticGK": [
+        "UNEP headquarters: Nairobi, Kenya"
+      ],
+      "remember": "June 5: the environment comes first.",
+      "aiGenerated": false,
+      "relevance": {
+        "RRB JE": "Connect the facts with technical fundamentals and general awareness.",
+        "SSC CGL": "Useful for general awareness and static GK revision; no prediction of examination questions.",
+        "SSC CHSL": "Useful for general awareness and static GK revision; no prediction of examination questions."
+      }
+    },
+    {
+      "id": "science",
+      "category": "Science and Technology",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "High",
+      "publishedAt": "2026-09-30T09:00:00+05:30",
+      "eventAt": null,
+      "collectedAt": "2026-09-30T09:00:00+05:30",
+      "updatedAt": "2026-09-30T09:00:00+05:30",
+      "source": "NCERT",
+      "sourceUrl": "https://ncert.nic.in/textbook.php",
+      "verification": "demo",
+      "organizations": [
+        "Optical communication"
+      ],
+      "locations": [
+        "India"
+      ],
+      "headline": "Optical fibre: how light carries information",
+      "summary": "Connect total internal reflection with optical communication and the core-cladding structure.",
+      "body": [
+        "In the ray model, light is guided through an optical fibre by total internal reflection. The core has a higher refractive index than the cladding.",
+        "Total internal reflection requires travel from an optically denser to a rarer medium and an incidence angle above the critical angle."
+      ],
+      "facts": [
+        "Core refractive index exceeds cladding index",
+        "Guiding principle: total internal reflection"
+      ],
+      "staticGK": [
+        "Frequency remains unchanged when light crosses a stationary interface"
+      ],
+      "remember": "Higher-index core keeps the light guided.",
+      "aiGenerated": false,
+      "relevance": {
+        "RRB JE": "Connect the facts with technical fundamentals and general awareness.",
+        "SSC CGL": "Useful for general awareness and static GK revision; no prediction of examination questions.",
+        "SSC CHSL": "Useful for general awareness and static GK revision; no prediction of examination questions."
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "moon-q1",
+      "category": "Space and Defence",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "High",
+      "publishedAt": "2026-09-30T09:00:00+05:30",
+      "eventAt": "2023-08-23T12:00:00+05:30",
+      "collectedAt": "2026-09-30T09:00:00+05:30",
+      "updatedAt": "2026-09-30T09:00:00+05:30",
+      "source": "ISRO",
+      "sourceUrl": "https://www.isro.gov.in/Ch3_Propulsion_Module_moved_from_Lunar_orbit_to_Earth_orbit.html",
+      "verification": "demo",
+      "organizations": [
+        "ISRO"
+      ],
+      "locations": [
+        "Moon",
+        "Bengaluru"
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Apollo_11_image_of_a_nearly_full_Moon.jpg",
+        "alt": "Representative Moon photograph from Apollo 11, not a Chandrayaan mission photograph",
+        "author": "NASA / ALSJ / Emily Lakdawalla",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Apollo_11_image_of_a_nearly_full_Moon.jpg",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-NASA"
+      },
+      "articleId": "moon",
+      "prompt": "What was the name of the Chandrayaan-3 rover?",
+      "options": [
+        "Vikram",
+        "Pragyan",
+        "Aditya",
+        "Aryabhata"
+      ],
+      "answer": 1,
+      "explanation": "Pragyan was the rover; Vikram was the lander.",
+      "validation": "demo-reviewed"
+    },
+    {
+      "id": "moon-q2",
+      "category": "Space and Defence",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "High",
+      "publishedAt": "2026-09-30T09:00:00+05:30",
+      "eventAt": "2023-08-23T12:00:00+05:30",
+      "collectedAt": "2026-09-30T09:00:00+05:30",
+      "updatedAt": "2026-09-30T09:00:00+05:30",
+      "source": "ISRO",
+      "sourceUrl": "https://www.isro.gov.in/Ch3_Propulsion_Module_moved_from_Lunar_orbit_to_Earth_orbit.html",
+      "verification": "demo",
+      "organizations": [
+        "ISRO"
+      ],
+      "locations": [
+        "Moon",
+        "Bengaluru"
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Apollo_11_image_of_a_nearly_full_Moon.jpg",
+        "alt": "Representative Moon photograph from Apollo 11, not a Chandrayaan mission photograph",
+        "author": "NASA / ALSJ / Emily Lakdawalla",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Apollo_11_image_of_a_nearly_full_Moon.jpg",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-NASA"
+      },
+      "articleId": "moon",
+      "prompt": "Chandrayaan-3 achieved its successful soft landing on which date?",
+      "options": [
+        "23 August 2023",
+        "14 July 2023",
+        "26 January 2023",
+        "15 August 2022"
+      ],
+      "answer": 0,
+      "explanation": "23 August 2023 was the landing date. 14 July 2023 was the launch date.",
+      "validation": "demo-reviewed"
+    },
+    {
+      "id": "rail-q1",
+      "category": "Railways and Infrastructure",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "Medium",
+      "publishedAt": "2026-09-29T09:00:00+05:30",
+      "eventAt": null,
+      "collectedAt": "2026-09-29T09:00:00+05:30",
+      "updatedAt": "2026-09-29T09:00:00+05:30",
+      "source": "Indian Railways",
+      "sourceUrl": "https://indianrailways.gov.in/",
+      "verification": "demo",
+      "organizations": [
+        "Indian Railways"
+      ],
+      "locations": [
+        "India"
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/A_typical_Indian_passenger_train.jpg/1280px-A_typical_Indian_passenger_train.jpg",
+        "alt": "An Indian passenger train",
+        "author": "HridoyKundu",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_typical_Indian_passenger_train.jpg",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "articleId": "rail",
+      "prompt": "Which component collects power from an overhead traction wire?",
+      "options": [
+        "Pantograph",
+        "Axle counter",
+        "Buffer",
+        "Coupler"
+      ],
+      "answer": 0,
+      "explanation": "A pantograph maintains electrical contact with the overhead contact wire.",
+      "validation": "demo-reviewed"
+    },
+    {
+      "id": "rail-q2",
+      "category": "Railways and Infrastructure",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "Medium",
+      "publishedAt": "2026-09-29T09:00:00+05:30",
+      "eventAt": null,
+      "collectedAt": "2026-09-29T09:00:00+05:30",
+      "updatedAt": "2026-09-29T09:00:00+05:30",
+      "source": "Indian Railways",
+      "sourceUrl": "https://indianrailways.gov.in/",
+      "verification": "demo",
+      "organizations": [
+        "Indian Railways"
+      ],
+      "locations": [
+        "India"
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/A_typical_Indian_passenger_train.jpg/1280px-A_typical_Indian_passenger_train.jpg",
+        "alt": "An Indian passenger train",
+        "author": "HridoyKundu",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_typical_Indian_passenger_train.jpg",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "articleId": "rail",
+      "prompt": "A transformer primarily works on which principle?",
+      "options": [
+        "Electrolysis",
+        "Mutual induction",
+        "Photoelectric effect",
+        "Thermionic emission"
+      ],
+      "answer": 1,
+      "explanation": "Changing magnetic flux links its windings, inducing voltage by mutual induction.",
+      "validation": "demo-reviewed"
+    },
+    {
+      "id": "tiger-q1",
+      "category": "Environment",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "High",
+      "publishedAt": "2026-09-28T09:00:00+05:30",
+      "eventAt": "1973-04-01T12:00:00+05:30",
+      "collectedAt": "2026-09-28T09:00:00+05:30",
+      "updatedAt": "2026-09-28T09:00:00+05:30",
+      "source": "National Tiger Conservation Authority",
+      "sourceUrl": "https://ntca.gov.in/about-us/",
+      "verification": "demo",
+      "organizations": [
+        "NTCA",
+        "Ministry of Environment, Forest and Climate Change"
+      ],
+      "locations": [
+        "India",
+        "Kanha"
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Royal_Bengal_Tiger_at_Kanha_National_Park.jpg/1280px-Royal_Bengal_Tiger_at_Kanha_National_Park.jpg",
+        "alt": "Bengal tiger at Kanha National Park",
+        "author": "Rahulsharma photography",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Royal_Bengal_Tiger_at_Kanha_National_Park.jpg",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "articleId": "tiger",
+      "prompt": "Project Tiger was launched in which year?",
+      "options": [
+        "1963",
+        "1973",
+        "1983",
+        "1993"
+      ],
+      "answer": 1,
+      "explanation": "Project Tiger was launched in 1973.",
+      "validation": "demo-reviewed"
+    },
+    {
+      "id": "tiger-q2",
+      "category": "Environment",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "High",
+      "publishedAt": "2026-09-28T09:00:00+05:30",
+      "eventAt": "1973-04-01T12:00:00+05:30",
+      "collectedAt": "2026-09-28T09:00:00+05:30",
+      "updatedAt": "2026-09-28T09:00:00+05:30",
+      "source": "National Tiger Conservation Authority",
+      "sourceUrl": "https://ntca.gov.in/about-us/",
+      "verification": "demo",
+      "organizations": [
+        "NTCA",
+        "Ministry of Environment, Forest and Climate Change"
+      ],
+      "locations": [
+        "India",
+        "Kanha"
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Royal_Bengal_Tiger_at_Kanha_National_Park.jpg/1280px-Royal_Bengal_Tiger_at_Kanha_National_Park.jpg",
+        "alt": "Bengal tiger at Kanha National Park",
+        "author": "Rahulsharma photography",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Royal_Bengal_Tiger_at_Kanha_National_Park.jpg",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "articleId": "tiger",
+      "prompt": "Protecting tigers in their natural forest habitat is an example of what?",
+      "options": [
+        "Ex-situ conservation",
+        "In-situ conservation",
+        "Artificial selection",
+        "Captive breeding only"
+      ],
+      "answer": 1,
+      "explanation": "In-situ conservation protects species within their natural habitats.",
+      "validation": "demo-reviewed"
+    },
+    {
+      "id": "constitution-q1",
+      "category": "National Affairs",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "High",
+      "publishedAt": "2026-09-27T09:00:00+05:30",
+      "eventAt": "1949-11-26T12:00:00+05:30",
+      "collectedAt": "2026-09-27T09:00:00+05:30",
+      "updatedAt": "2026-09-27T09:00:00+05:30",
+      "source": "Parliament of India",
+      "sourceUrl": "https://sansad.in/ls/about/introduction",
+      "verification": "demo",
+      "organizations": [
+        "Constituent Assembly"
+      ],
+      "locations": [
+        "New Delhi"
+      ],
+      "articleId": "constitution",
+      "prompt": "When was the Constitution of India adopted?",
+      "options": [
+        "26 January 1950",
+        "15 August 1947",
+        "26 November 1949",
+        "2 October 1949"
+      ],
+      "answer": 2,
+      "explanation": "It was adopted on 26 November 1949; it came into force on 26 January 1950.",
+      "validation": "demo-reviewed"
+    },
+    {
+      "id": "constitution-q2",
+      "category": "National Affairs",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "High",
+      "publishedAt": "2026-09-27T09:00:00+05:30",
+      "eventAt": "1949-11-26T12:00:00+05:30",
+      "collectedAt": "2026-09-27T09:00:00+05:30",
+      "updatedAt": "2026-09-27T09:00:00+05:30",
+      "source": "Parliament of India",
+      "sourceUrl": "https://sansad.in/ls/about/introduction",
+      "verification": "demo",
+      "organizations": [
+        "Constituent Assembly"
+      ],
+      "locations": [
+        "New Delhi"
+      ],
+      "articleId": "constitution",
+      "prompt": "Republic Day commemorates which event?",
+      "options": [
+        "Adoption of the Constitution",
+        "Commencement of the Constitution",
+        "First general election",
+        "Formation of the Constituent Assembly"
+      ],
+      "answer": 1,
+      "explanation": "Republic Day marks the Constitution coming into force on 26 January 1950.",
+      "validation": "demo-reviewed"
+    },
+    {
+      "id": "rbi-q1",
+      "category": "Economy and Banking",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "Medium",
+      "publishedAt": "2026-09-26T09:00:00+05:30",
+      "eventAt": null,
+      "collectedAt": "2026-09-26T09:00:00+05:30",
+      "updatedAt": "2026-09-26T09:00:00+05:30",
+      "source": "Reserve Bank of India",
+      "sourceUrl": "https://www.rbi.org.in/",
+      "verification": "demo",
+      "organizations": [
+        "RBI"
+      ],
+      "locations": [
+        "Mumbai",
+        "India"
+      ],
+      "articleId": "rbi",
+      "prompt": "Which institution is India’s central bank?",
+      "options": [
+        "SEBI",
+        "RBI",
+        "NABARD",
+        "SBI"
+      ],
+      "answer": 1,
+      "explanation": "The Reserve Bank of India is the central bank.",
+      "validation": "demo-reviewed"
+    },
+    {
+      "id": "rbi-q2",
+      "category": "Economy and Banking",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "Medium",
+      "publishedAt": "2026-09-26T09:00:00+05:30",
+      "eventAt": null,
+      "collectedAt": "2026-09-26T09:00:00+05:30",
+      "updatedAt": "2026-09-26T09:00:00+05:30",
+      "source": "Reserve Bank of India",
+      "sourceUrl": "https://www.rbi.org.in/",
+      "verification": "demo",
+      "organizations": [
+        "RBI"
+      ],
+      "locations": [
+        "Mumbai",
+        "India"
+      ],
+      "articleId": "rbi",
+      "prompt": "Government taxation and public spending belong primarily to which policy?",
+      "options": [
+        "Monetary policy",
+        "Fiscal policy",
+        "Exchange-only policy",
+        "Credit rating policy"
+      ],
+      "answer": 1,
+      "explanation": "Fiscal policy concerns government revenue and expenditure.",
+      "validation": "demo-reviewed"
+    },
+    {
+      "id": "electronics-q1",
+      "category": "Electronics and Technology",
+      "exams": [
+        "RRB JE"
+      ],
+      "priority": "High",
+      "publishedAt": "2026-09-25T09:00:00+05:30",
+      "eventAt": null,
+      "collectedAt": "2026-09-25T09:00:00+05:30",
+      "updatedAt": "2026-09-25T09:00:00+05:30",
+      "source": "MIT OpenCourseWare",
+      "sourceUrl": "https://ocw.mit.edu/",
+      "verification": "demo",
+      "organizations": [
+        "ADC"
+      ],
+      "locations": [
+        "India"
+      ],
+      "articleId": "electronics",
+      "prompt": "What is the Nyquist rate for a signal with a highest frequency of 5 kHz?",
+      "options": [
+        "2.5 kHz",
+        "5 kHz",
+        "10 kHz",
+        "20 kHz"
+      ],
+      "answer": 2,
+      "explanation": "The Nyquist rate is twice the highest frequency: 2 × 5 = 10 kHz.",
+      "validation": "demo-reviewed"
+    },
+    {
+      "id": "electronics-q2",
+      "category": "Electronics and Technology",
+      "exams": [
+        "RRB JE"
+      ],
+      "priority": "High",
+      "publishedAt": "2026-09-25T09:00:00+05:30",
+      "eventAt": null,
+      "collectedAt": "2026-09-25T09:00:00+05:30",
+      "updatedAt": "2026-09-25T09:00:00+05:30",
+      "source": "MIT OpenCourseWare",
+      "sourceUrl": "https://ocw.mit.edu/",
+      "verification": "demo",
+      "organizations": [
+        "ADC"
+      ],
+      "locations": [
+        "India"
+      ],
+      "articleId": "electronics",
+      "prompt": "Where is an analogue anti-aliasing filter normally placed?",
+      "options": [
+        "Before the ADC",
+        "After digital storage only",
+        "After the display",
+        "Across the clock crystal"
+      ],
+      "answer": 0,
+      "explanation": "It limits input bandwidth before the ADC samples the signal.",
+      "validation": "demo-reviewed"
+    },
+    {
+      "id": "un-q1",
+      "category": "International Affairs",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "High",
+      "publishedAt": "2026-09-24T09:00:00+05:30",
+      "eventAt": "1945-10-24T12:00:00+05:30",
+      "collectedAt": "2026-09-24T09:00:00+05:30",
+      "updatedAt": "2026-09-24T09:00:00+05:30",
+      "source": "United Nations",
+      "sourceUrl": "https://www.un.org/en/about-us/main-bodies",
+      "verification": "demo",
+      "organizations": [
+        "United Nations",
+        "ICJ"
+      ],
+      "locations": [
+        "New York",
+        "The Hague"
+      ],
+      "articleId": "un",
+      "prompt": "The International Court of Justice is based in which city?",
+      "options": [
+        "Geneva",
+        "New York",
+        "The Hague",
+        "Paris"
+      ],
+      "answer": 2,
+      "explanation": "The ICJ has its seat at the Peace Palace in The Hague, Netherlands.",
+      "validation": "demo-reviewed"
+    },
+    {
+      "id": "un-q2",
+      "category": "International Affairs",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "High",
+      "publishedAt": "2026-09-24T09:00:00+05:30",
+      "eventAt": "1945-10-24T12:00:00+05:30",
+      "collectedAt": "2026-09-24T09:00:00+05:30",
+      "updatedAt": "2026-09-24T09:00:00+05:30",
+      "source": "United Nations",
+      "sourceUrl": "https://www.un.org/en/about-us/main-bodies",
+      "verification": "demo",
+      "organizations": [
+        "United Nations",
+        "ICJ"
+      ],
+      "locations": [
+        "New York",
+        "The Hague"
+      ],
+      "articleId": "un",
+      "prompt": "United Nations Day is observed on which date?",
+      "options": [
+        "24 October",
+        "5 June",
+        "10 December",
+        "21 June"
+      ],
+      "answer": 0,
+      "explanation": "24 October marks the entry into force of the UN Charter in 1945.",
+      "validation": "demo-reviewed"
+    },
+    {
+      "id": "scheme-q1",
+      "category": "Government Schemes",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "Medium",
+      "publishedAt": "2026-09-30T09:00:00+05:30",
+      "eventAt": "2005-09-05T12:00:00+05:30",
+      "collectedAt": "2026-09-30T09:00:00+05:30",
+      "updatedAt": "2026-09-30T09:00:00+05:30",
+      "source": "Ministry of Rural Development",
+      "sourceUrl": "https://nrega.nic.in/",
+      "verification": "demo",
+      "organizations": [
+        "Ministry of Rural Development"
+      ],
+      "locations": [
+        "India"
+      ],
+      "articleId": "scheme",
+      "prompt": "The core MGNREGA guarantee is expressed per what?",
+      "options": [
+        "Urban ward",
+        "Individual student",
+        "Rural household",
+        "District"
+      ],
+      "answer": 2,
+      "explanation": "The statutory guarantee is per rural household whose adult members volunteer for unskilled manual work.",
+      "validation": "demo-reviewed"
+    },
+    {
+      "id": "scheme-q2",
+      "category": "Government Schemes",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "Medium",
+      "publishedAt": "2026-09-30T09:00:00+05:30",
+      "eventAt": "2005-09-05T12:00:00+05:30",
+      "collectedAt": "2026-09-30T09:00:00+05:30",
+      "updatedAt": "2026-09-30T09:00:00+05:30",
+      "source": "Ministry of Rural Development",
+      "sourceUrl": "https://nrega.nic.in/",
+      "verification": "demo",
+      "organizations": [
+        "Ministry of Rural Development"
+      ],
+      "locations": [
+        "India"
+      ],
+      "articleId": "scheme",
+      "prompt": "MGNREGA’s basic guarantee is at least how many days of wage employment in a financial year?",
+      "options": [
+        "50",
+        "75",
+        "100",
+        "365"
+      ],
+      "answer": 2,
+      "explanation": "The basic statutory guarantee is at least 100 days per eligible rural household.",
+      "validation": "demo-reviewed"
+    },
+    {
+      "id": "geo-q1",
+      "category": "Geography",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "High",
+      "publishedAt": "2026-09-29T09:00:00+05:30",
+      "eventAt": null,
+      "collectedAt": "2026-09-29T09:00:00+05:30",
+      "updatedAt": "2026-09-29T09:00:00+05:30",
+      "source": "NCERT",
+      "sourceUrl": "https://ncert.nic.in/textbook.php",
+      "verification": "demo",
+      "organizations": [
+        "NCERT"
+      ],
+      "locations": [
+        "India"
+      ],
+      "articleId": "geo",
+      "prompt": "The Tropic of Cancer is approximately at which latitude?",
+      "options": [
+        "23.5° S",
+        "23.5° N",
+        "66.5° N",
+        "0°"
+      ],
+      "answer": 1,
+      "explanation": "The Tropic of Cancer lies at approximately 23.5° north.",
+      "validation": "demo-reviewed"
+    },
+    {
+      "id": "geo-q2",
+      "category": "Geography",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "High",
+      "publishedAt": "2026-09-29T09:00:00+05:30",
+      "eventAt": null,
+      "collectedAt": "2026-09-29T09:00:00+05:30",
+      "updatedAt": "2026-09-29T09:00:00+05:30",
+      "source": "NCERT",
+      "sourceUrl": "https://ncert.nic.in/textbook.php",
+      "verification": "demo",
+      "organizations": [
+        "NCERT"
+      ],
+      "locations": [
+        "India"
+      ],
+      "articleId": "geo",
+      "prompt": "The Tropic of Cancer crosses how many Indian states?",
+      "options": [
+        "Six",
+        "Seven",
+        "Eight",
+        "Nine"
+      ],
+      "answer": 2,
+      "explanation": "It crosses eight Indian states.",
+      "validation": "demo-reviewed"
+    },
+    {
+      "id": "sport-q1",
+      "category": "Sports",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "High",
+      "publishedAt": "2026-09-28T09:00:00+05:30",
+      "eventAt": null,
+      "collectedAt": "2026-09-28T09:00:00+05:30",
+      "updatedAt": "2026-09-28T09:00:00+05:30",
+      "source": "International Olympic Committee",
+      "sourceUrl": "https://olympics.com/ioc/olympic-rings",
+      "verification": "demo",
+      "organizations": [
+        "IOC"
+      ],
+      "locations": [
+        "Lausanne",
+        "Athens"
+      ],
+      "articleId": "sport",
+      "prompt": "How many rings are in the Olympic symbol?",
+      "options": [
+        "Four",
+        "Five",
+        "Six",
+        "Seven"
+      ],
+      "answer": 1,
+      "explanation": "The Olympic symbol has five interlaced rings.",
+      "validation": "demo-reviewed"
+    },
+    {
+      "id": "sport-q2",
+      "category": "Sports",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "High",
+      "publishedAt": "2026-09-28T09:00:00+05:30",
+      "eventAt": null,
+      "collectedAt": "2026-09-28T09:00:00+05:30",
+      "updatedAt": "2026-09-28T09:00:00+05:30",
+      "source": "International Olympic Committee",
+      "sourceUrl": "https://olympics.com/ioc/olympic-rings",
+      "verification": "demo",
+      "organizations": [
+        "IOC"
+      ],
+      "locations": [
+        "Lausanne",
+        "Athens"
+      ],
+      "articleId": "sport",
+      "prompt": "The first modern Olympic Games in 1896 were held in which city?",
+      "options": [
+        "Paris",
+        "Rome",
+        "Athens",
+        "London"
+      ],
+      "answer": 2,
+      "explanation": "Athens hosted the first modern Olympic Games in 1896.",
+      "validation": "demo-reviewed"
+    },
+    {
+      "id": "award-q1",
+      "category": "Awards and Honours",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "Medium",
+      "publishedAt": "2026-09-27T09:00:00+05:30",
+      "eventAt": "1901-12-10T12:00:00+05:30",
+      "collectedAt": "2026-09-27T09:00:00+05:30",
+      "updatedAt": "2026-09-27T09:00:00+05:30",
+      "source": "Nobel Prize",
+      "sourceUrl": "https://www.nobelprize.org/prizes/",
+      "verification": "demo",
+      "organizations": [
+        "Nobel Foundation"
+      ],
+      "locations": [
+        "Oslo",
+        "Stockholm"
+      ],
+      "articleId": "award",
+      "prompt": "In which year were the first Nobel Prizes awarded?",
+      "options": [
+        "1895",
+        "1901",
+        "1911",
+        "1969"
+      ],
+      "answer": 1,
+      "explanation": "The first Nobel Prizes were awarded in 1901.",
+      "validation": "demo-reviewed"
+    },
+    {
+      "id": "award-q2",
+      "category": "Awards and Honours",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "Medium",
+      "publishedAt": "2026-09-27T09:00:00+05:30",
+      "eventAt": "1901-12-10T12:00:00+05:30",
+      "collectedAt": "2026-09-27T09:00:00+05:30",
+      "updatedAt": "2026-09-27T09:00:00+05:30",
+      "source": "Nobel Prize",
+      "sourceUrl": "https://www.nobelprize.org/prizes/",
+      "verification": "demo",
+      "organizations": [
+        "Nobel Foundation"
+      ],
+      "locations": [
+        "Oslo",
+        "Stockholm"
+      ],
+      "articleId": "award",
+      "prompt": "The Nobel Peace Prize award ceremony takes place in which city?",
+      "options": [
+        "Stockholm",
+        "Oslo",
+        "Geneva",
+        "Helsinki"
+      ],
+      "answer": 1,
+      "explanation": "The Nobel Peace Prize is awarded in Oslo, Norway.",
+      "validation": "demo-reviewed"
+    },
+    {
+      "id": "appointment-q1",
+      "category": "Appointments",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "High",
+      "publishedAt": "2026-09-26T09:00:00+05:30",
+      "eventAt": null,
+      "collectedAt": "2026-09-26T09:00:00+05:30",
+      "updatedAt": "2026-09-26T09:00:00+05:30",
+      "source": "Legislative Department",
+      "sourceUrl": "https://legislative.gov.in/constitution-of-india/",
+      "verification": "demo",
+      "organizations": [
+        "President of India"
+      ],
+      "locations": [
+        "India"
+      ],
+      "articleId": "appointment",
+      "prompt": "Who appoints the Governor of an Indian state?",
+      "options": [
+        "Prime Minister",
+        "Chief Minister",
+        "President",
+        "Chief Justice of India"
+      ],
+      "answer": 2,
+      "explanation": "The President appoints the Governor under Article 155.",
+      "validation": "demo-reviewed"
+    },
+    {
+      "id": "appointment-q2",
+      "category": "Appointments",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "High",
+      "publishedAt": "2026-09-26T09:00:00+05:30",
+      "eventAt": null,
+      "collectedAt": "2026-09-26T09:00:00+05:30",
+      "updatedAt": "2026-09-26T09:00:00+05:30",
+      "source": "Legislative Department",
+      "sourceUrl": "https://legislative.gov.in/constitution-of-india/",
+      "verification": "demo",
+      "organizations": [
+        "President of India"
+      ],
+      "locations": [
+        "India"
+      ],
+      "articleId": "appointment",
+      "prompt": "Which article addresses the appointment of a state Governor?",
+      "options": [
+        "Article 110",
+        "Article 155",
+        "Article 280",
+        "Article 324"
+      ],
+      "answer": 1,
+      "explanation": "Article 155 concerns appointment of the Governor.",
+      "validation": "demo-reviewed"
+    },
+    {
+      "id": "report-q1",
+      "category": "Reports and Indices",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "High",
+      "publishedAt": "2026-09-25T09:00:00+05:30",
+      "eventAt": null,
+      "collectedAt": "2026-09-25T09:00:00+05:30",
+      "updatedAt": "2026-09-25T09:00:00+05:30",
+      "source": "UNDP",
+      "sourceUrl": "https://hdr.undp.org/data-center/human-development-index",
+      "verification": "demo",
+      "organizations": [
+        "UNDP"
+      ],
+      "locations": [
+        "Global"
+      ],
+      "articleId": "report",
+      "prompt": "Which organisation publishes the Human Development Report?",
+      "options": [
+        "WTO",
+        "UNDP",
+        "IMF",
+        "UNESCO"
+      ],
+      "answer": 1,
+      "explanation": "The United Nations Development Programme publishes the Human Development Report.",
+      "validation": "demo-reviewed"
+    },
+    {
+      "id": "report-q2",
+      "category": "Reports and Indices",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "High",
+      "publishedAt": "2026-09-25T09:00:00+05:30",
+      "eventAt": null,
+      "collectedAt": "2026-09-25T09:00:00+05:30",
+      "updatedAt": "2026-09-25T09:00:00+05:30",
+      "source": "UNDP",
+      "sourceUrl": "https://hdr.undp.org/data-center/human-development-index",
+      "verification": "demo",
+      "organizations": [
+        "UNDP"
+      ],
+      "locations": [
+        "Global"
+      ],
+      "articleId": "report",
+      "prompt": "Which is NOT one of the three core HDI dimensions?",
+      "options": [
+        "Health",
+        "Education",
+        "Standard of living",
+        "Military expenditure"
+      ],
+      "answer": 3,
+      "explanation": "HDI combines health, education and standard of living, not military expenditure.",
+      "validation": "demo-reviewed"
+    },
+    {
+      "id": "day-q1",
+      "category": "Important Days",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "Medium",
+      "publishedAt": "2026-09-24T09:00:00+05:30",
+      "eventAt": "1973-06-05T12:00:00+05:30",
+      "collectedAt": "2026-09-24T09:00:00+05:30",
+      "updatedAt": "2026-09-24T09:00:00+05:30",
+      "source": "UNEP",
+      "sourceUrl": "https://www.unep.org/events/un-day/world-environment-day",
+      "verification": "demo",
+      "organizations": [
+        "UNEP"
+      ],
+      "locations": [
+        "Nairobi"
+      ],
+      "articleId": "day",
+      "prompt": "World Environment Day is observed on which date?",
+      "options": [
+        "22 April",
+        "5 June",
+        "16 September",
+        "24 October"
+      ],
+      "answer": 1,
+      "explanation": "World Environment Day is observed on 5 June.",
+      "validation": "demo-reviewed"
+    },
+    {
+      "id": "day-q2",
+      "category": "Important Days",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "Medium",
+      "publishedAt": "2026-09-24T09:00:00+05:30",
+      "eventAt": "1973-06-05T12:00:00+05:30",
+      "collectedAt": "2026-09-24T09:00:00+05:30",
+      "updatedAt": "2026-09-24T09:00:00+05:30",
+      "source": "UNEP",
+      "sourceUrl": "https://www.unep.org/events/un-day/world-environment-day",
+      "verification": "demo",
+      "organizations": [
+        "UNEP"
+      ],
+      "locations": [
+        "Nairobi"
+      ],
+      "articleId": "day",
+      "prompt": "Where is UNEP headquartered?",
+      "options": [
+        "Nairobi",
+        "Paris",
+        "Rome",
+        "Vienna"
+      ],
+      "answer": 0,
+      "explanation": "UNEP is headquartered in Nairobi, Kenya.",
+      "validation": "demo-reviewed"
+    },
+    {
+      "id": "science-q1",
+      "category": "Science and Technology",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "High",
+      "publishedAt": "2026-09-30T09:00:00+05:30",
+      "eventAt": null,
+      "collectedAt": "2026-09-30T09:00:00+05:30",
+      "updatedAt": "2026-09-30T09:00:00+05:30",
+      "source": "NCERT",
+      "sourceUrl": "https://ncert.nic.in/textbook.php",
+      "verification": "demo",
+      "organizations": [
+        "Optical communication"
+      ],
+      "locations": [
+        "India"
+      ],
+      "articleId": "science",
+      "prompt": "Optical fibre guiding is explained in the ray model by which phenomenon?",
+      "options": [
+        "Diffraction only",
+        "Total internal reflection",
+        "Photoemission",
+        "Electrolysis"
+      ],
+      "answer": 1,
+      "explanation": "Total internal reflection at the core-cladding boundary guides light.",
+      "validation": "demo-reviewed"
+    },
+    {
+      "id": "science-q2",
+      "category": "Science and Technology",
+      "exams": [
+        "RRB JE",
+        "SSC CGL",
+        "SSC CHSL"
+      ],
+      "priority": "High",
+      "publishedAt": "2026-09-30T09:00:00+05:30",
+      "eventAt": null,
+      "collectedAt": "2026-09-30T09:00:00+05:30",
+      "updatedAt": "2026-09-30T09:00:00+05:30",
+      "source": "NCERT",
+      "sourceUrl": "https://ncert.nic.in/textbook.php",
+      "verification": "demo",
+      "organizations": [
+        "Optical communication"
+      ],
+      "locations": [
+        "India"
+      ],
+      "articleId": "science",
+      "prompt": "For a conventional optical fibre, which refractive index relationship is correct?",
+      "options": [
+        "Core greater than cladding",
+        "Core less than cladding",
+        "Both must be zero",
+        "Cladding must be a metal"
+      ],
+      "answer": 0,
+      "explanation": "The core has a higher refractive index than its cladding.",
+      "validation": "demo-reviewed"
+    }
+  ]
+}
