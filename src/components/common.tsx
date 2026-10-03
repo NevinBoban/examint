@@ -21,6 +21,7 @@ import { toggleBookmark } from "../db";
 import { useData, useToast } from "../store";
 import { prettyDate } from "../logic";
 import { Button } from "./ui/button";
+import { refreshNews, useNewsStatus } from "../news";
 export const categoryIcons: Record<string, LucideIcon> = {
   "Space and Defence": Orbit,
   "Railways and Infrastructure": TrainFront,
@@ -122,7 +123,9 @@ export function ArticleCard({ article: a }: { article: Article }) {
     <article className="article-card">
       <Link to={`/article/${a.id}`} className="article-image">
         <Media image={a.image} category={a.category} />
-        <span className="image-label">DEMO EDITION</span>
+        <span className="image-label">
+          {a.verification === "demo" ? "DEMO EDITION" : "OFFICIAL SOURCE"}
+        </span>
       </Link>
       <div className="article-copy">
         <div className="row between">
@@ -213,14 +216,42 @@ export function Empty({
   );
 }
 export function DemoNote() {
+  const { collection, busy, error } = useNewsStatus();
+  const stale =
+    collection?.lastSuccessAt &&
+    Date.now() - Date.parse(collection.lastSuccessAt) > 8 * 3600000;
   return (
     <div className="demo-note">
       <Lightbulb size={17} />
       <span>
-        <strong>A practice edition, not live news.</strong> Historical facts and
-        static GK, arranged across 24–30 Sep 2026. Priority estimates study
+        <strong>Official news + labelled practice content.</strong>{" "}
+        {collection?.lastSuccessAt
+          ? `Last collected: ${new Date(collection.lastSuccessAt).toLocaleString("en-IN")}. ${collection.questionCount} source-checked questions in the published bank.`
+          : "No successful news collection recorded yet. Demonstration questions remain available."}{" "}
+        Collection is scheduled every four hours; timing may vary. Quiz rules
+        check source evidence, not independent truth. Priority estimates study
         relevance.
+        {stale && (
+          <span role="status">
+            {" "}
+            Collection is overdue; showing the last saved edition.
+          </span>
+        )}
+        {collection?.sources.some((s) => !s.ok) && (
+          <span role="status">
+            {" "}
+            A source could not be checked in the last run.
+          </span>
+        )}
+        {error && <span role="status"> {error}</span>}
       </span>
+      <Button
+        variant="secondary"
+        disabled={busy}
+        onClick={() => void refreshNews(true)}
+      >
+        {busy ? "Refreshing…" : "Refresh edition"}
+      </Button>
     </div>
   );
 }

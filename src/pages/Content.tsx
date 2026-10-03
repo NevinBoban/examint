@@ -176,7 +176,11 @@ export function ArticleReader() {
           <ChevronLeft size={17} /> Current affairs
         </Link>
         <div className="row">
-          <span className="tag">Demonstration content</span>
+          <span className="tag">
+            {a.verification === "demo"
+              ? "Demonstration content"
+              : "Official source checked"}
+          </span>
           <SaveButton type="article" id={a.id} />
         </div>
       </div>
@@ -190,7 +194,8 @@ export function ArticleReader() {
             <div className="tags">
               <span className="tag amber">{a.priority} study priority</span>
               <span className="tag">
-                Demo edition: {prettyDate(a.publishedAt)}
+                {a.verification === "demo" ? "Demo edition" : "Published"}:{" "}
+                {prettyDate(a.publishedAt)}
               </span>
               {a.eventAt && (
                 <span className="tag">Event: {prettyDate(a.eventAt)}</span>
@@ -266,10 +271,16 @@ export function ArticleReader() {
           <section className="panel">
             <h3>About this edition</h3>
             <p>
-              Curated historical facts and static GK. Edition dates organise
-              this demo; they are not claims of recent events. No AI-generated
-              content or live retrieval.
+              {a.verification === "demo"
+                ? "Curated historical facts and static GK. Edition dates organise this demo; they are not claims of recent events."
+                : "Collected from an official PIB release. Topic rules estimate exam relevance. Only supported factual recall questions enter quizzes. This is source checking, not independent fact verification."}
             </p>
+            {a.evidence && (
+              <p className="small-note">
+                Source checked:{" "}
+                {new Date(a.evidence.checkedAt).toLocaleString("en-IN")}
+              </p>
+            )}
           </section>
         </aside>
       </div>

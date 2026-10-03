@@ -38,7 +38,15 @@ export interface ContentMeta {
   updatedAt: string;
   source: string;
   sourceUrl: string;
-  verification: "demo" | "verified" | "unverified";
+  verification: "demo" | "verified" | "unverified" | "source-checked";
+  evidence?: {
+    method: string;
+    rule: string;
+    quote: string;
+    sourceUrl: string;
+    checkedAt: string;
+    sourceHash: string;
+  };
   image?: LicensedImage;
   organizations: string[];
   locations: string[];
@@ -59,7 +67,7 @@ export interface Question extends ContentMeta {
   options: [string, string, string, string];
   answer: number;
   explanation: string;
-  validation: "demo-reviewed" | "pending" | "verified";
+  validation: "demo-reviewed" | "pending" | "verified" | "rule-checked";
 }
 export type Outcome = "correct" | "incorrect" | "revealed";
 export interface Attempt {
@@ -119,4 +127,24 @@ export interface Bank {
   version: number;
   articles: Article[];
   questions: Question[];
+  collection?: CollectionStatus;
+}
+export interface CollectionStatus {
+  lastRunAt: string;
+  lastSuccessAt: string | null;
+  schedule: string;
+  sources: {
+    name: string;
+    url: string;
+    ok: boolean;
+    errors: string[];
+    discovered: number;
+    checked: number;
+  }[];
+  addedArticles: number;
+  addedQuestions: number;
+  held: number;
+  articleCount: number;
+  questionCount: number;
+  policy: string;
 }

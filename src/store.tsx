@@ -8,6 +8,8 @@ import {
 import { useLiveQuery } from "dexie-react-hooks";
 import { db, defaultSettings } from "./db";
 import { initialize } from "./repositories";
+import { refreshNews } from "./news";
+import { isQuizEligible } from "./logic";
 const ToastContext = createContext<(message: string) => void>(() => {});
 export function ToastProvider({ children }: { children: ReactNode }) {
   const [message, setMessage] = useState("");
@@ -37,7 +39,7 @@ export function useData() {
     useLiveQuery(
       async () => ({
         articles: await db.articles.toArray(),
-        questions: await db.questions.toArray(),
+        questions: (await db.questions.toArray()).filter(isQuizEligible),
         attempts: await db.attempts.toArray(),
         bookmarks: await db.bookmarks.toArray(),
         revisions: await db.revisions.toArray(),
@@ -66,6 +68,7 @@ export function DataGate({ children }: { children: ReactNode }) {
     try {
       await initialize();
       setReady(true);
+      void refreshNews();
     } catch (e) {
       if (await db.articles.count()) setReady(true);
       else setError((e as Error).message);
@@ -73,6 +76,20 @@ export function DataGate({ children }: { children: ReactNode }) {
   }
   useEffect(() => {
     void start();
+    const refresh = () => {
+      if (document.visibilityState === "visible") void refreshNews();
+    };
+    const online = () => {
+      void refreshNews(true);
+    };
+    const timer = setInterval(refresh, 10 * 60 * 1000);
+    document.addEventListener("visibilitychange", refresh);
+    window.addEventListener("online", online);
+    return () => {
+      clearInterval(timer);
+      document.removeEventListener("visibilitychange", refresh);
+      window.removeEventListener("online", online);
+    };
   }, []);
   return ready ? (
     children

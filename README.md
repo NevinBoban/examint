@@ -41,7 +41,21 @@ A local preview is for development. To open the app reliably on both a phone and
 
 The demo edition is fixed to **24–30 September 2026**. These are synthetic edition dates for testing the workflow, not claims that historical events happened then. Event dates are stored separately. If Today has no demo questions, choose Random Quiz, or select 30 September 2026 and Weekly Quiz. All content remains accessible in the archive.
 
-Source URLs are provided. Some static-GK items reference an organisation's reference portal rather than a specific news article. The content is educational demonstration material, not a live news service or a prediction of exam questions. No AI or news collection is running.
+Source URLs are provided. Some static-GK items reference an organisation's reference portal rather than a specific news article. Demonstration material is labelled and is not a prediction of exam questions.
+
+## Automatic official news
+
+PIB English releases are collected by GitHub Actions every four hours and published
+alongside the labelled demo edition. The app shows the last successful collection,
+source failures, and overdue collection. Refresh edition downloads the latest
+published bank; it does not trigger collection. Existing news and local progress
+are retained. No API key, AI subscription or external database is required.
+
+Quiz generation is conservative: exact approved acronym expansions, single-state
+headline recall, and explicit sports-medal statements. Questions need source
+evidence and four distinct options. Other articles remain reading material.
+These checks verify agreement with an official release, not independent truth.
+See [collection policy and maintenance](news/README.md) for limits and operation.
 
 ## GitHub source control and GitHub Pages
 

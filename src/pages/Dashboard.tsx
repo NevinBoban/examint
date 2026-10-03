@@ -177,7 +177,7 @@ export default function Dashboard() {
       <div className="section-head">
         <div>
           <h2>Your reading shortlist</h2>
-          <p>Selected for {settings.exam} · demonstration edition</p>
+          <p>Selected for {settings.exam} · official news and labelled practice</p>
         </div>
         <Link className="text-link" to="/current-affairs">
           View all articles <ChevronRight size={16} />

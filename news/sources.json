@@ -1,0 +1,9 @@
+{
+  "sources": [{
+    "id": "pib",
+    "name": "Press Information Bureau",
+    "feedUrl": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=3",
+    "listingUrl": "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1",
+    "allowedHosts": ["pib.gov.in", "www.pib.gov.in"]
+  }]
+}

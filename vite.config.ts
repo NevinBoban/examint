@@ -20,7 +20,7 @@ export default defineConfig({
     tailwindcss(),
     VitePWA({
       registerType: "prompt",
-      includeAssets: ["icons/*.png", "content/*.json"],
+      includeAssets: ["icons/*.png", "content/demo.json"],
       manifest: {
         name: "EXAMINT — Personal Exam Preparation",
         short_name: "EXAMINT",
@@ -42,9 +42,14 @@ export default defineConfig({
         ],
       },
       workbox: {
+        globIgnores: ["**/content/live.json"],
         globPatterns: ["**/*.{js,css,html,png,svg,json,woff2}"],
         maximumFileSizeToCacheInBytes: 4000000,
         runtimeCaching: [
+          {
+            urlPattern: /\/content\/live\.json$/,
+            handler: "NetworkOnly",
+          },
           {
             urlPattern: /^https:\/\/upload\.wikimedia\.org\//,
             handler: "CacheFirst",

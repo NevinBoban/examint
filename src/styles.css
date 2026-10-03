@@ -2542,3 +2542,11 @@ footer,
     gap: 20px;
   }
 }
+/* Keep news status and its refresh action comfortable on narrow screens. */
+.demo-note {
+  flex-wrap: wrap;
+}
+.demo-note > span {
+  flex: 1;
+  min-width: 180px;
+}

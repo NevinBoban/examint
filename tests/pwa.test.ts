@@ -13,6 +13,7 @@ it("ships a scoped manifest, install icons and offline content with relative ass
   expect(html).toContain("./assets/");
   const sw = readFileSync("dist/sw.js", "utf8");
   expect(sw).toContain("content/demo.json");
+  expect(sw).not.toMatch(/url:\s*["']content\/live\.json["']/);
   expect(sw).toContain("index.html");
   expect(existsSync("dist/content/demo.json")).toBe(true);
 });

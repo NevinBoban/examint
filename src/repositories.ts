@@ -1,5 +1,5 @@
 import { db, defaultSettings } from "./db";
-import { nextRevision } from "./logic";
+import { nextRevision, isQuizEligible } from "./logic";
 import { validateBackup } from "./backup";
 import type {
   Article,
@@ -39,27 +39,30 @@ export class LocalNewsProvider implements NewsProvider {
       throw new Error(
         "The demonstration edition could not be loaded. Reconnect and retry.",
       );
-    const bank = (await r.json()) as Bank;
-    if (!Number.isInteger(bank.version) || bank.version < 1)
-      throw new Error("Unsupported content bank version.");
-    validateBackup({
-      app: "EXAMINT",
-      schemaVersion: 2,
-      exportedAt: new Date().toISOString(),
-      data: {
-        articles: bank.articles,
-        questions: bank.questions,
-        attempts: [],
-        bookmarks: [],
-        revisions: [],
-        settings: [],
-        sessions: [],
-        readings: [],
-        reports: [],
-      },
-    });
-    return bank;
+    return validateBank(await r.json());
   }
+}
+export function validateBank(raw: unknown): Bank {
+  const bank = raw as Bank;
+  if (!Number.isInteger(bank.version) || bank.version < 1)
+    throw new Error("Unsupported content bank version.");
+  validateBackup({
+    app: "EXAMINT",
+    schemaVersion: 2,
+    exportedAt: new Date().toISOString(),
+    data: {
+      articles: bank.articles,
+      questions: bank.questions,
+      attempts: [],
+      bookmarks: [],
+      revisions: [],
+      settings: [],
+      sessions: [],
+      readings: [],
+      reports: [],
+    },
+  });
+  return bank;
 }
 export class LocalAIProvider implements AIProvider {
   async summarize(article: Article) {
@@ -124,6 +127,10 @@ export class LocalProgressRepository implements ProgressRepository {
         const id = `${sessionId}:${questionId}`;
         const saved = await db.attempts.get(id);
         if (saved) return saved;
+        if (!isQuizEligible(question))
+          throw new Error(
+            "This question is awaiting verification. Exit this quiz and start another.",
+          );
         if (
           !reveal &&
           (selected === null ||
@@ -176,6 +183,11 @@ export async function createSession(
   revision = false,
 ) {
   if (!ids.length) throw new Error("No questions match these filters.");
+  const candidates = await db.questions.bulkGet(ids);
+  if (candidates.some((q) => !q || !isQuizEligible(q)))
+    throw new Error(
+      "One or more questions are awaiting verification. Refresh your selection.",
+    );
   const session: Session = {
     id: crypto.randomUUID(),
     questionIds: ids,

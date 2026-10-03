@@ -337,15 +337,16 @@ export default function Settings() {
           </Button>
         </section>
         <section className="panel settings-section">
-          <h2>Phase 1 · Local and independent</h2>
+          <h2>News collection and local progress</h2>
           <p>
-            No paid APIs, no AI subscription and no external database. This
-            edition contains demonstration content only.
+            Official news is collected on GitHub. Progress stays on this device.
+            Demonstration content is labelled separately. No AI API is
+            connected.
           </p>
           <dl className="integration-list">
             <div>
               <dt>News source</dt>
-              <dd>Local demonstration edition</dd>
+              <dd>PIB English releases + demonstration edition</dd>
             </div>
             <div>
               <dt>AI summaries</dt>
@@ -353,7 +354,7 @@ export default function Settings() {
             </div>
             <div>
               <dt>Automatic news collection</dt>
-              <dd>Not connected</dd>
+              <dd>GitHub Actions · scheduled every four hours</dd>
             </div>
             <div>
               <dt>Cloud synchronization</dt>

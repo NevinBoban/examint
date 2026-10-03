@@ -174,7 +174,7 @@ function Shell() {
                 month: "short",
               })}
             </span>
-            <span className="edition-tag">DEMO EDITION</span>
+            <span className="edition-tag">EXAMINT</span>
             <label className="exam-select">
               <GraduationCap size={17} />
               <select

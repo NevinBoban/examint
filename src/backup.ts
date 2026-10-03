@@ -89,11 +89,32 @@ function validMeta(x: Record<string, unknown>) {
     (x.eventAt != null && !date(x.eventAt)) ||
     !str(x.source) ||
     !safeUrl(x.sourceUrl) ||
-    !oneOf(x.verification, ["demo", "verified", "unverified"]) ||
+    !oneOf(x.verification, [
+      "demo",
+      "verified",
+      "unverified",
+      "source-checked",
+    ]) ||
     !strings(x.organizations) ||
     !strings(x.locations)
   )
     fail("invalid content metadata.");
+  if (x.evidence != null) {
+    const e = obj(x.evidence);
+    if (
+      !str(e.method, 100) ||
+      !str(e.rule, 100) ||
+      !str(e.quote, 2000) ||
+      !safeUrl(e.sourceUrl) ||
+      e.sourceUrl !== x.sourceUrl ||
+      !date(e.checkedAt) ||
+      typeof e.sourceHash !== "string" ||
+      !/^[a-f0-9]{64}$/.test(e.sourceHash)
+    )
+      fail("invalid source evidence.");
+  }
+  if (x.verification === "source-checked" && !x.evidence)
+    fail("source-checked content requires evidence.");
   if (x.image != null) {
     const i = obj(x.image);
     if (
@@ -158,9 +179,19 @@ export function validateBackup(raw: unknown): Backup {
             !x.options.every((o) => str(o)) ||
             !integer(x.answer, 0, 3) ||
             !str(x.explanation) ||
-            !oneOf(x.validation, ["demo-reviewed", "pending", "verified"])
+            !oneOf(x.validation, [
+              "demo-reviewed",
+              "pending",
+              "verified",
+              "rule-checked",
+            ])
           )
             fail("invalid question.");
+          if (
+            x.validation === "rule-checked" &&
+            (!x.evidence || x.verification !== "source-checked")
+          )
+            fail("rule-checked questions require source evidence.");
           break;
         case "attempts":
           if (

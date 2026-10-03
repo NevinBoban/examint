@@ -233,8 +233,9 @@ export function QuizSetup() {
         </div>
         {!selected.length && (
           <p className="inline-note">
-            No questions match. This demo edition covers 24–30 Sep 2026. Try
-            Weekly Quiz with 30 Sep, or Random Quiz.
+            No approved questions match this selection. Try Weekly Quiz or
+            Random Quiz. Articles without enough supported evidence do not
+            create quiz questions.
           </p>
         )}
       </section>
@@ -350,8 +351,12 @@ export function QuizSession() {
     return (
       <Empty
         title="Question unavailable"
-        description="Restore the complete backup or start another session."
-      />
+        description="This question may be awaiting verification or missing from your saved content. Your previous attempts are preserved."
+      >
+        <Button asChild>
+          <Link to="/quiz">Choose another quiz</Link>
+        </Button>
+      </Empty>
     );
   async function submit(reveal = false) {
     if (!question || !session) return;
@@ -511,7 +516,11 @@ export function QuizSession() {
           <div className="tags">
             <span className="tag">{question.category}</span>
             <span className="tag amber">{question.priority} priority</span>
-            <span className="tag">Demonstration</span>
+            <span className="tag">
+              {question.verification === "demo"
+                ? "Demonstration"
+                : "Source evidence checked"}
+            </span>
           </div>
           <h2 className="question-prompt">{question.prompt}</h2>
           {question.image && (

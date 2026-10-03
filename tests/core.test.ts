@@ -60,7 +60,7 @@ describe("Quiz storage invariants", () => {
 });
 describe("Date filters and scheduling", () => {
   const settings = {
-    date: "2026-09-30",
+    date: dayKey(bank.questions[0].publishedAt),
     exam: "RRB JE" as const,
     attempts: [],
     bookmarks: [],
@@ -72,7 +72,7 @@ describe("Date filters and scheduling", () => {
       mode: "Daily Quiz",
     });
     expect(daily.length).toBeGreaterThan(0);
-    expect(daily.every((q) => dayKey(q.publishedAt) === "2026-09-30")).toBe(
+    expect(daily.every((q) => dayKey(q.publishedAt) === settings.date)).toBe(
       true,
     );
     const weekly = selectQuestions(bank.questions, {

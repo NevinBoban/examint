@@ -3,8 +3,10 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: "17 1,5,9,13,17,21 * * *"
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 concurrency:
@@ -13,6 +15,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -20,8 +23,28 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m unittest discover -s tests -p 'test_*.py'
+      - name: Collect official news
+        id: collect
+        continue-on-error: true
+        run: python scripts/collect_news.py
       - run: npm run build
       - run: npm test
+      - name: Archive content without touching source or learning progress
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/content/live.json news/review-log.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh official news edition"
+            git push origin HEAD:main
+          fi
+      - name: Report collector status
+        run: |
+          echo "News collector result: ${{ steps.collect.outcome }}. A failed source keeps previous content and publishes its failure status." >> "$GITHUB_STEP_SUMMARY"
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -82,6 +82,22 @@ export const modes = [
   "Random Quiz",
   "Evening Quiz",
 ] as const;
+export function isQuizEligible(q: Question) {
+  if (q.verification === "demo") return q.validation === "demo-reviewed";
+  if (q.verification === "verified" && q.validation === "verified") return true;
+  return (
+    q.verification === "source-checked" &&
+    q.validation === "rule-checked" &&
+    q.evidence?.method === "evidence-rules-v1" &&
+    [
+      "explicit-acronym-pair",
+      "single-state-headline",
+      "explicit-medal-headline",
+    ].includes(q.evidence.rule) &&
+    q.evidence.sourceUrl === q.sourceUrl &&
+    !!q.evidence.quote
+  );
+}
 export type QuizMode = (typeof modes)[number];
 export function selectQuestions(
   qs: Question[],
@@ -108,6 +124,7 @@ export function selectQuestions(
   const latest = latestAttempts(attempts);
   const start = dayKey(addDays(new Date(date + "T12:00:00"), -6));
   let selected = qs.filter((q) => {
+    if (!isQuizEligible(q)) return false;
     const d = dayKey(q.publishedAt);
     if (articleId) return q.articleId === articleId;
     if (mode === "RRB JE Quiz") return q.exams.includes("RRB JE");
