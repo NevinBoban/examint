@@ -1,47 +1,4 @@
 {
-  "runAt": "2026-10-03T18:35:05Z",
-  "items": [
-    {
-      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2318743&reg=3&lang=1",
-      "headline": "Prime Minister congratulates Indian Men’s Hockey Team on retaining Gold at Asian Games",
-      "reason": "Passed source and relevance checks",
-      "quizQuestions": 1
-    },
-    {
-      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2318742&reg=3&lang=1",
-      "headline": "Prime Minister congratulates Deepak Punia on winning Bronze in Men’s 97 kg Freestyle Wrestling at Asian Games",
-      "reason": "Passed source and relevance checks",
-      "quizQuestions": 1
-    },
-    {
-      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2318741&reg=3&lang=1",
-      "headline": "Prime Minister congratulates Aman Sehrawat on winning historic Gold in Men’s 57 kg Freestyle Wrestling at Asian Games",
-      "reason": "Passed source and relevance checks",
-      "quizQuestions": 1
-    },
-    {
-      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2318678&reg=3&lang=1",
-      "headline": "Prime Minister congratulates Indian Men’s Cricket Team on retaining Gold at Asian Games",
-      "reason": "Passed source and relevance checks",
-      "quizQuestions": 1
-    },
-    {
-      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2318677&reg=3&lang=1",
-      "headline": "Prime Minister congratulates Pranavi Sharath Urs on winning historic Gold in Women’s Individual Golf at Asian Games",
-      "reason": "Passed source and relevance checks",
-      "quizQuestions": 1
-    },
-    {
-      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2318676&reg=3&lang=1",
-      "headline": "Prime Minister congratulates Kumkum Anil Mohod on winning historic Gold in Recurve Individual event at Asian Games",
-      "reason": "Passed source and relevance checks",
-      "quizQuestions": 1
-    },
-    {
-      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2318673&reg=3&lang=1",
-      "headline": "INDIAN NAVAL SHIPS SAHYADRI AND KULISH CONCLUDE PARTICIPATION IN AIME 2026",
-      "reason": "Passed source and relevance checks",
-      "quizQuestions": 1
-    }
-  ]
+  "runAt": "2026-10-03T18:37:16Z",
+  "items": []
 }

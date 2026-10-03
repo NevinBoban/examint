@@ -593,21 +593,23 @@
     }
   ],
   "collection": {
-    "lastRunAt": "2026-10-03T18:35:05Z",
+    "lastRunAt": "2026-10-03T18:37:16Z",
     "lastSuccessAt": "2026-10-03T18:35:05Z",
     "schedule": "Every four hours",
     "sources": [
       {
         "name": "Press Information Bureau",
         "url": "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1",
-        "ok": true,
-        "errors": [],
-        "discovered": 20,
-        "checked": 7
+        "ok": false,
+        "errors": [
+          "No English releases found. rss: HTTPError: HTTP Error 403: Forbidden; listing: HTTPError: HTTP Error 403: Forbidden"
+        ],
+        "discovered": 0,
+        "checked": 0
       }
     ],
     "addedArticles": 0,
-    "addedQuestions": 7,
+    "addedQuestions": 0,
     "held": 0,
     "policy": "evidence-rules-v1",
     "articleCount": 7,
