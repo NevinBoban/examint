@@ -593,7 +593,7 @@
     }
   ],
   "collection": {
-    "lastRunAt": "2026-10-08T16:30:11Z",
+    "lastRunAt": "2026-10-08T22:05:35Z",
     "lastSuccessAt": "2026-10-03T18:35:05Z",
     "schedule": "Every four hours",
     "sources": [
